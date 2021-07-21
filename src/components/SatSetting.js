@@ -3,7 +3,7 @@ import {Form, Button, InputNumber} from 'antd';
 
 class SatSettingForm extends Component {
   render() {
-    const {getFieldDecorator} = this.props.from;
+    const {getFieldDecorator} = this.props.form;
     const formItemLayout = {
       labelCol: {
         xs: { span: 24 },
